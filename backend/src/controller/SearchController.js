@@ -17,7 +17,8 @@ module.exports = {
                     $geometry:{
                         type: 'Point',
                         coordinates:  [longitude, latitude],
-                    }
+                    },
+                    $maxDistance: 10000,
                 }
             },
         });
